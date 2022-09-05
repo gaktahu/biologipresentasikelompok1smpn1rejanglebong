@@ -3,18 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon server.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/cli": "^2.31.1",
+    "@sanity/client": "^3.3.6",
+    "aos": "^3.0.0-beta.6",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "daisyui": "^2.24.0",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "framer-motion": "^6.2.4",
+    "graphql": "^15.8.0",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-flow-renderer": "^10.3.16",
+    "swiper": "^8.3.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.8",
     "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "12.2.5",
+    "nodemon": "^2.0.19",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
